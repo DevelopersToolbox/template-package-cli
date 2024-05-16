@@ -40,5 +40,23 @@
 
 ## Overview
 
+This is the baseline package template that we use internally when creating new python tools for the [Blue Team Toolbox](https://github.com/BlueTeamToolbox)
+and [Red Team Toolbox](https://github.com/RedTeamToolbox). It has all of the basic functionality and workflows needed to create,
+build and publish new package to [PyPI](https://pypi.org/).
+
+Base functionality:
+
+1. Command line processing with examples parameters
+2. Wrappers for information, warning, error, success and system messages (and associated colours)
+3. A global configuration namespace with example configuration
+4. Custom exceptions with examples
+5. Clear documentation for each function
+6. Minimal dependency on external modules
+
+We decided to make this available along with our other tools to allow people to use a well engineered starting point when creating their own tools.
+
+We also have a [baseline project](https://github.com/GreyTeamToolbox/baseline-project) which can be used to create scripts and tools for local
+execution. It comes with all the same base functionality but without the package build and publish.
+
 <br />
 <p align="right"><a href="https://wolfsoftware.com/"><img src="https://img.shields.io/badge/Created%20by%20Wolf%20on%20behalf%20of%20Wolf%20Software-blue?style=for-the-badge" /></a></p>
