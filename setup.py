@@ -12,7 +12,7 @@ with open("README.md", 'r', encoding='UTF-8') as f:
 
 setup(
     name='baseline-package',
-    version='0.0.1rc4',
+    version='0.0.1rc5',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
