@@ -12,7 +12,7 @@ with open("README.md", 'r', encoding='UTF-8') as f:
 
 setup(
     name='baseline-package',
-    version='0.0.1rc3',
+    version='0.0.1rc4',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -29,8 +29,7 @@ setup(
         ' Source': 'https://github.com/GreyTeamToolbox/baseline-package',
         ' Tracker': 'https://github.com/GreyTeamToolbox/baseline-package/issues/',
         ' Documentation': 'https://github.com/GreyTeamToolbox/baseline-package',
-        ' Funding': 'https://ko-fi.com/wolfsoftware',
-        ' Say Thanks!': 'https://github.com/sponsors/TGWolf',
+        ' Sponsor': 'https://github.com/sponsors/WolfSoftware',
     },
     classifiers=[
         'Environment :: Console',
