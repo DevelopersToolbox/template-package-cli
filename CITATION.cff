@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: Baseline Package
 message: "If you use this software, please cite it as below."
 type: software
-version: 0.0.1rc1
+version: 0.0.1rc2
 date-released: 2024-05-16
 repository-code: 'https://github.com/GreyTeamToolbox/baseline-package'
 abstract: some needs to go here
