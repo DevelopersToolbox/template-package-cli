@@ -51,7 +51,7 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
         run: |
-          twine upload dist/*
+          twine upload -r testpypi dist/*
 
   set-release-version:
     name: Set Release Version
