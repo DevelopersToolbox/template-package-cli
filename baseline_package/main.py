@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """This is the summary line.
 
 This is the further elaboration of the docstring. Within this section,
@@ -21,7 +22,6 @@ def main() -> None:
     and does not return any value. It ensures that the script's functionality
     is triggered correctly when the script is executed.
     """
-
     try:
         run()
     except KeyboardInterrupt:
